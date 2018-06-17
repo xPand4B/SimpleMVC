@@ -47,64 +47,65 @@ __Dependencies :__
     composer.json
     ```
 
-- Libraries (installed with __composer__)
+* Libraries (installed with __composer__)
     ```
     composer.json
     ```
 
-- Core App files __(namespace: Core)__
+* Core App files __(namespace: Core)__
     ```
     app/Core/
     ```
 
-- Controller
+* Controller
     ```
     app/Controllers
     ```
 
-- Models __(namespace: Model)__
+* Models __(namespace: Model)__
     ```
     app/Models/
     ```
 
-- Views
-    - Master Layout
+* Views
+    * Master Layout
         ```
         resources/views/master.blade.php
         ```
-    - Other Layouts
+    * Other Layouts
         ```
         resources/views/layouts/
         ```
-    - Page Views
+    * Page Views
         ```
         resources/views/pages/
         ```
-    - Page partials
-        ```resources/views/partials/
+    * Page partials
         ```
-    - Cached Views
+        resources/views/partials/
+        ```
+    * Cached Views
         ```
         storage/views/
         ```
 
-- URL Rewrite conditions + access control
+* URL Rewrite conditions + access control
     ```
     app/.htaccess
     public/.htaccess
     ```
 
-- CSS
+* CSS
     ```
     public/css/
     ```
 
-- JavaScript
+* JavaScript
     ```
     public/js/
     ```
 
-- Images
+* Images
     ```
     public/img/
     ```
