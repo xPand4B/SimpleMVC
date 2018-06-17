@@ -7,3 +7,78 @@ __Dependencies :__
 | Blade Template Engine | ^1.1           |
 | Illuminate Database   | ^5.6           |
 | PHP DotENV            | ^2.4           |
+
+
+## Inspired by ##
+* [Laravel](https://laravel.com)
+* [YouTube/Codecourse](https://www.youtube.com/playlist?list=PLfdtiltiRHWGXVHXX09fxXDi-DqInchFD)
+
+
+## How to use ##
+* Install dependencies __(inside project folder)__
+    ```
+    cmd> composer install
+    ```
+
+* Add Page:
+    * Create Page Controller
+    ```
+    app/Controllers/template.Controller.php
+    ```
+
+    * Create Page View
+    ```
+    resources/views/pages/template.blade.php
+    ```
+
+    * Create Page Model __[Optional]__
+    ```
+    app/Models/Template.php
+    ```
+    ```
+    cmd> composer dump-autoload
+    ```
+
+## Where to find stuff ##
+* Init files
+    ` app/init.php `
+    ` public/index.php `
+    ` composer.json `
+
+- Libraries (installed with __composer__)
+
+    ` composer.json `
+
+- Core App files [namespace: Core`
+    ` ./app/Core/ `
+
+- Controller
+    ` ./app/Controllers/ `
+
+- Models [namespace: Model`
+    ` ./app/Models/ `
+
+- Views
+    - Master Layout
+        ` ./resources/views/master.blade.php `
+    - Other Layouts
+        ` ./resources/views/layouts/ `
+    - Page Views
+        ` ./resources/views/pages/ `
+    - Page partials
+        ` ./resources/views/partials/ `
+    - Cached Views
+        ` ./storage/views/ `
+
+- URL Rewrite conditions + access control
+    ` ./app/.htaccess `
+    ` ./public/.htaccess `
+
+- CSS
+    ` ./public/css/ `
+
+- JavaScript
+    ` ./public/js/ `
+
+- Images
+    ` ./public/img/ `
