@@ -41,44 +41,70 @@ __Dependencies :__
 
 ## Where to find stuff ##
 * Init files
-    ` app/init.php `
-    ` public/index.php `
-    ` composer.json `
+    ```
+    app/init.php
+    public/index.php
+    composer.json
+    ```
 
 - Libraries (installed with __composer__)
+    ```
+    composer.json
+    ```
 
-    ` composer.json `
-
-- Core App files [namespace: Core`
-    ` ./app/Core/ `
+- Core App files __(namespace: Core)__
+    ```
+    app/Core/
+    ```
 
 - Controller
-    ` ./app/Controllers/ `
+    ```
+    app/Controllers
+    ```
 
-- Models [namespace: Model`
-    ` ./app/Models/ `
+- Models __(namespace: Model)__
+    ```
+    app/Models/
+    ```
 
 - Views
     - Master Layout
-        ` ./resources/views/master.blade.php `
+        ```
+        resources/views/master.blade.php
+        ```
     - Other Layouts
-        ` ./resources/views/layouts/ `
+        ```
+        resources/views/layouts/
+        ```
     - Page Views
-        ` ./resources/views/pages/ `
+        ```
+        resources/views/pages/
+        ```
     - Page partials
-        ` ./resources/views/partials/ `
+        ```resources/views/partials/
+        ```
     - Cached Views
-        ` ./storage/views/ `
+        ```
+        storage/views/
+        ```
 
 - URL Rewrite conditions + access control
-    ` ./app/.htaccess `
-    ` ./public/.htaccess `
+    ```
+    app/.htaccess
+    public/.htaccess
+    ```
 
 - CSS
-    ` ./public/css/ `
+    ```
+    public/css/
+    ```
 
 - JavaScript
-    ` ./public/js/ `
+    ```
+    public/js/
+    ```
 
 - Images
-    ` ./public/img/ `
+    ```
+    public/img/
+    ```
