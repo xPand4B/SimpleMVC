@@ -16,7 +16,7 @@ In this project I'm trying to create a small and simple MVC based Web-App using 
 
 
 ## How to use ##
-* In order to use this project you need to install [compoers](https://getcomposer.org) first.
+* In order to use this project you need to install [composer](https://getcomposer.org) first.
 * Install dependencies using composer __(inside project folder)__
     ```
     cmd> composer install
